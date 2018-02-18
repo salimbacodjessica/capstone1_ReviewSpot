@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="capstone1_salimbacod.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="icon1.png">
+	<title> Review Spot/Charts</title>
+
+</head>
+<body>
+	<section id="top"> </section>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<nav class="navbar navbar-inverse ">
+	   	<div class="container-fluid">
+		   	<div class="navbar-header">
+	  			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		   			<span class="sr-only">Toggle navigation</span>
+		   			<span class="icon-bar"></span>
+		   			<span class="icon-bar"></span>
+		   			<span class="icon-bar"></span>
+	   			</button>
+	   			<a class="navbar-brand" href="capstone1_salimbacod.html">
+	   				<img src="icon1.png" style="width:40px; height: 40px; margin-top: -10px; float: left;"> Review Spot
+	   			</a>
+	   		</div>	
+	   		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		   		<ul class="nav navbar-nav" >	
+		   			<li><a href="capstone1_salimbacod.html">Home</a></li>
+		   			<li><a href="about.html">About</a></li>
+					<li><a href="moviereview.html">Movies</a></li>
+					<li><a href="tvreview.html">TV Series</a></li>
+					<li><a href="addreview.html">Add a review</a></li>
+				</ul>				
+				<ul class="nav navbar-right" style="margin-top: 10px">
+					<li class="dropdown">
+					   	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>	 
+						<ul class="dropdown-menu">	
+							<li><a href="signup.html">Sign up</a></li>
+							<li><a href="loginpage.html">Log in</a></li>		
+						</ul>
+					</li>
+				</ul>
+				<div class="navi input-group navbar-right">						
+      				<input type="text" class="form-control" placeholder="Search">
+      				<span class="input-group-btn">
+       				 	<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+     				</span>
+				</div>		
+		   	</div>
+	   	</div>
+	</nav>
+	<div class="main">
+		<div class="container" style="">
+			<div class="row">
+				<div class="col-sm-9 col-xs-8 col-lg-10">
+					<div class=""><br>
+						<div class="panel panel-default panel1">
+							<section id="rated1"> </section>
+							<div class="panel-heading ph1">
+							<h4>Top Rated Movies</h4>
+							</div>
+							<div class="panel-body">
+								<h5>Rated Top 10 Movies based on <a href="http://www.imdb.com/chart/top?sort=ir,desc&mode=simple&page=1">IMDb Rating </a> </h5>
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner">
+									    <div class="item active">
+									        <div class="row">
+										        <div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rmovies1.jpg">
+														<p style="margin-top: 10px;">1. The Shawshank Redemption (1994)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.2/10</span></p>
+													</div>
+												</div>
+												<div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rmovies2.jpg">
+														<p style="margin-top: 10px;">2. The Godfather (1972)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.2/10</span></p>
+													</div>	      
+												</div>
+							      				<div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rmovies3.jpg">
+														<p style="margin-top: 10px;">3. The Godfather: Part II (1974)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.0/10</span></p>
+													</div>
+										        </div>
+										        <div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rmovies4.jpg">
+														<p style="margin-top: 10px;">4. The Dark Knight (2008)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.0/10</span></p>
+													</div>		      
+												</div>
+						      				</div>
+						      			</div>
+									    <div class="item">
+									    	<div class="row">
+									    		<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rmovies5.jpg">
+														<p style="margin-top: 10px;">5. 12 Angry Men (1957)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">8.9/10</span></p>
+													</div>
+						     					</div>	
+							      				<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="movie6.jpg">
+														<p style="margin-top: 10px;">6. Schindler's List (1993)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">8.9/10</span></p>
+													</div>
+							       				</div>
+							        			<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rmovie7.jpg">
+														<p style="margin-top: 10px;">7. Pulp Fiction (1994)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">8.9/10</span></p>
+													</div>
+										        </div>
+						      				</div>
+						      			</div>	
+						     			<div class="item">
+						     				<div class="row">	
+						     					<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rmovie8.jpg">
+														<p style="margin-top: 10px;">8. The Lord of the Rings: The Return of the King (2003)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">8.9/10</span></p>
+													</div>
+										        </div>
+										        <div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rmovie9.jpg">
+														<p style="margin-top: 10px;">9. The Good, the Bad and the Ugly (1966)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">8.8/10</span></p>
+													</div>
+										        </div>
+										        <div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rmovie10.jpg">
+														<p style="margin-top: 10px;">10. Fight Club (1999)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">8.8/10</span></p>
+													</div>
+							      				</div>
+							      			</div>
+						     			</div>
+						    		</div>
+								    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									    <span class="glyphicon glyphicon-chevron-left"></span>
+									    <span class="sr-only">Previous</span>
+								  	</a>
+								  	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+									    <span class="glyphicon glyphicon-chevron-right"></span>
+									    <span class="sr-only">Next</span>
+								  	</a>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel2">
+							<section id="rated2"> </section>
+							<div class="panel-heading ph2"><h3">Top Rated TV Series</h3></div>
+							<div class="panel-body">
+							<h4>Rated Top 10 TV Series based on <a href="http://www.imdb.com/chart/toptv?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=4da9d9a5-d299-43f2-9c53-f0efa18182cd&pf_rd_r=03MNV5XPXSNB849M38JY&pf_rd_s=right-4&pf_rd_t=15506&pf_rd_i=top&ref_=chttp_ql_6">IMDb Rating </a> </h4>
+								<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner">
+									    <div class="item active">
+									        <div class="row">
+										        <div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rtv1.jpg">
+														<p style="margin-top: 10px;">1. Planet Earth II (2016)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.5/10</span></p>
+													</div>
+												</div>
+												<div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rtv2.jpg">
+														<p style="margin-top: 10px;">2. Band of Brothers (2001)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.5/10</span></p>
+													</div>    
+												</div>
+							      				<div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rtv3.jpg">
+														<p style="margin-top: 10px;">3. Planet Earth (2006)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.5/10</span></p>
+													</div>
+										        </div>
+										        <div class="col-sm-3 col-xs-3">
+													<div class="thumbnail">
+														<img src="rtv4.jpg">
+														<p style="margin-top: 10px;">4. Game of Thrones (2011)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.4/10</span></p>
+													</div>      
+												</div>
+						      				</div>
+						      			</div>
+									    <div class="item">
+									    	<div class="row">
+									    		<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rtv5.jpg">
+														<p style="margin-top: 10px;">5. Breaking Bad (2008)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.4/10</span></p>
+													</div>
+						     					</div>	
+							      				<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rtv6.jpg">
+														<p style="margin-top: 10px;">6. The Wire (2002)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.3/10</span></p>
+													</div>
+							       				</div>
+							        			<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rtv7.jpg">
+														<p style="margin-top: 10px;">7. Rick and Morty (2013)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.3/10</span></p>
+													</div>
+										        </div>
+						      				</div>
+						      			</div>	
+						     			<div class="item">
+						     				<div class="row">	
+						     					<div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rtv8.jpg">
+														<p style="margin-top: 10px;">8. Cosmos: A Spacetime Odyssey (2014)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.3/10</span></p>
+													</div>
+										        </div>
+										        <div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rtv9.jpg">
+														<p style="margin-top: 10px;">9. Cosmos (1980)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.2/10</span></p>
+													</div>
+										        </div>
+										        <div class="col-sm-4 col-xs-4">
+													<div class="thumbnail">
+														<img src="rtv10.jpg">
+														<p style="margin-top: 10px;">10. The Sopranos (1999)</p>
+														<p class="ratings">Rating: <span class="badge" style="background-color:green">9.2/10</span></p>
+													</div>
+							      				</div>
+							      			</div>
+						     			</div>
+						    		</div>
+								    <a class="left carousel-control" href="#myCarouse2l" data-slide="prev">
+									    <span class="glyphicon glyphicon-chevron-left"></span>
+									    <span class="sr-only">Previous</span>
+								  	</a>
+								  	<a class="right carousel-control" href="#myCarousel2" data-slide="next">
+									    <span class="glyphicon glyphicon-chevron-right"></span>
+									    <span class="sr-only">Next</span>
+								  	</a>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default panel3">
+							<div class="panel-heading ph3"><h3>Most Popular Movies</h3></div>
+							<section id="rated3"> </section>
+							<div class="panel-body">
+								<div class="thumbnail th">
+									<img src="img10.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="img2.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="img6.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="img7.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="img8.jpg">
+								</div>	
+							</div>
+						</div>
+						<div class="panel panel-default panel4">
+							<section id="rated4"> </section>
+							<div class="panel-heading ph4"><h3>Most Popular TV Series</h3></div>
+							<div class="panel-body">
+								<div class="thumbnail th">
+									<img src="jpg1.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="jpg5.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="jpg7.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="jpg8.jpg">
+								</div>
+								<div class="thumbnail th">
+									<img src="rtv7.jpg">
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-4 col-lg-2">
+					<div class="panel panel-default">
+						<div class="panel-heading active"><a href="charts.html">Charts</a></div>
+						<div class="panel-body">
+							<ul class="rated" >
+								<li>Top rated Movies</li>
+								<li>Top rated TV Series</li>
+								<li>Most popular Movies</li>
+								<li>Most popular TV Series</li>
+							</ul>
+						</div>
+					</div>		
+					<div class="panel panel-default">
+						<div class="panel-heading"><a href="">Categories</a></div>
+						<div class="panel-body">
+							<ul class="category">
+								<li>Action</li>
+								<li>Adventure</li>
+								<li>Animation</li>
+								<li>Biography</li>
+								<li>Comedy</li>
+								<li>Crime</li>
+								<li>Documentary</li>
+								<li>Drama</li>
+								<li>Family</li>
+								<li>Fantasy</li>
+								<li>History</li>
+								<li>Horror</li>
+								<li>Music</li>
+								<li>Musical</li>
+								<li>Mystery</li>
+								<li>Romance</li>
+								<li>Sci-Fi</li>
+								<li>Short</li>
+								<li>Sport</li>
+								<li>Thriller</li>
+								<li>War</li>
+							</ul>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>	
+		<hr>
+		<p style="margin-bottom:3em;margin-top:3em; text-align: center;">Copyright © Review Spot 2018</p>
+		<div class="top col-lg-1" style="float: right; margin-right: 10px; ;">
+			<a href="#top">Back to Top</a>
+		</div>
+	</footer>	
+</body>
+</html>
